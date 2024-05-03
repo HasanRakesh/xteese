@@ -2,12 +2,10 @@ body {
     margin: 0;
     padding: 0;
     font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
+    font-weight: 400;
+    font-size: 18px;
     line-height: 180%;
-    color: #6A6262;
-    ;
-    font-family: "Plus Jakarta Sans", sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 
@@ -28,12 +26,12 @@ a {
     text-decoration: none;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
-    color: #6A6262;
+    color: #000
 }
 
 a:hover {
     text-decoration: none;
-    color: #6A6262;
+    color: #000
 }
 
 a:focus,
@@ -66,8 +64,9 @@ h3,
 h4,
 h5,
 h6 {
-    color: #0B0909;
+    color: #000;
     margin-bottom: 0;
+    font-family: "Barlow Condensed", sans-serif;
 }
 
 h1,
@@ -123,7 +122,7 @@ button {
 }
 
 .container {
-    max-width: 1240px
+    max-width: 1260px
 }
 
 .container.wide {
@@ -187,6 +186,85 @@ section,
     font-weight: 700;
     line-height: 120%;
 }
+
+
+
+
+.header-blk-bg{
+    background: #000;
+    padding: 10px 0
+}
+.header-blk-bg-inn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+.header-blk-bg-left span{
+    display: flex;
+    align-items: center
+}
+.header-blk-bg-left span img{
+    margin-right: 5px
+}
+.header-blk-bg-left span p{
+    color: #fff;
+    font-size: 16px
+}
+.header-blk-bg-right ul{
+    display: flex;
+    align-items: center
+}
+.header-blk-bg-right ul li{
+    margin-right: 25px
+}
+.header-blk-bg-right ul li:last-child{
+    margin-right: 0
+}
+.header-wht-bg{
+    background: #fff;
+    padding: 15px 0
+}
+.header-wht-inn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.header-menu ul li{
+    display: inline-block;
+    margin-right: 20px
+}
+.header-menu ul li a{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.header-menu ul li:last-child{
+    margin-right: 0
+}
+.header-action ul {
+    display: flex;
+    align-items: center
+}
+.header-action ul li{
+    margin-left: 20px
+}
+.header-action ul li:first-child{
+    margin-left: 0
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
