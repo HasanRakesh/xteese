@@ -1,0 +1,192 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 180%;
+    color: #6A6262;
+    ;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+
+.main-wrapper {
+    position: relative;
+    overflow-x: hidden
+}
+
+ul,
+ol,
+li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    color: #6A6262;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #6A6262;
+}
+
+a:focus,
+input:focus,
+button:focus,
+select:focus,
+button:focus,
+textarea:focus {
+    outline: none;
+}
+
+input {
+    border: none
+}
+
+img {
+    max-width: 100%;
+    display: block
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #0B0909;
+    margin-bottom: 0;
+}
+
+h1,
+.h1 {
+    font-size: 64px;
+    line-height: 110%;
+}
+
+h2,
+.h2 {
+    font-size: 48px;
+    line-height: 100%;
+}
+
+h3,
+.h3 {
+    font-size: 28px;
+    line-height: 30px;
+}
+
+h4,
+.h4 {
+    font-size: 26px;
+    line-height: 32px;
+}
+
+h5,
+.h5 {
+    font-size: 22px;
+    line-height: 30px;
+}
+
+h6,
+.h6 {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+p {
+    margin-bottom: 16px;
+}
+
+
+p:last-child {
+    margin-bottom: 0 !important;
+}
+
+button {
+    border: none;
+    transition: all 0.4s ease 0s;
+    background: transparent
+}
+
+.container {
+    max-width: 1240px
+}
+
+.container.wide {
+    max-width: 1360px;
+}
+
+section,
+.section {
+    padding: 160px 0
+}
+
+.cta-btn {
+    display: inline-block;
+    border: 1px solid rgba(245, 41, 33, 0.16);
+    padding: 10px 32px;
+    border-radius: 28px;
+    color: #fff;
+}
+
+.cta-btn:hover {
+    color: #fff;
+    background: #F52921;
+}
+
+.btn_fill {
+    background: #F52921;
+    color: #fff;
+    padding: 14px 32px;
+    border-radius: 28px;
+}
+
+.btn_fill:hover {
+    color: #fff;
+    background: #d62720
+}
+
+.section-heading .heading {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 24px;
+    color: #0B0909;
+}
+
+.section-heading .title {
+    display: block;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 100%;
+    color: #F52921;
+    margin-bottom: 16px
+}
+
+.section-heading p {
+    margin-bottom: 56px !important
+}
+
+.title {
+    color: #0B0909;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+
+
