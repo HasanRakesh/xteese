@@ -1,17 +1,62 @@
 @font-face {
-    font-family: 'Barlow Condensed';
-    src: url('BarlowCondensed-ExtraLight.woff2') format('woff2'),
-        url('BarlowCondensed-ExtraLight.woff') format('woff');
+    font-family: 'Bai Jamjuree';
+    src: url('BaiJamjuree-Bold.woff2') format('woff2'),
+        url('BaiJamjuree-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bai Jamjuree';
+    src: url('BaiJamjuree-ExtraLight.woff2') format('woff2'),
+        url('BaiJamjuree-ExtraLight.woff') format('woff');
     font-weight: 200;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
+    font-family: 'Bai Jamjuree';
+    src: url('BaiJamjuree-Light.woff2') format('woff2'),
+        url('BaiJamjuree-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bai Jamjuree';
+    src: url('BaiJamjuree-Medium.woff2') format('woff2'),
+        url('BaiJamjuree-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bai Jamjuree';
+    src: url('BaiJamjuree-Regular.woff2') format('woff2'),
+        url('BaiJamjuree-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bai Jamjuree';
+    src: url('BaiJamjuree-SemiBold.woff2') format('woff2'),
+        url('BaiJamjuree-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
     font-family: 'Barlow Condensed';
-    src: url('BarlowCondensed-ExtraBold.woff2') format('woff2'),
-        url('BarlowCondensed-ExtraBold.woff') format('woff');
-    font-weight: bold;
+    src: url('BarlowCondensed-Black.woff2') format('woff2'),
+        url('BarlowCondensed-Black.woff') format('woff');
+    font-weight: 900;
     font-style: normal;
     font-display: swap;
 }
@@ -27,18 +72,27 @@
 
 @font-face {
     font-family: 'Barlow Condensed';
-    src: url('BarlowCondensed-Light.woff2') format('woff2'),
-        url('BarlowCondensed-Light.woff') format('woff');
-    font-weight: 300;
+    src: url('BarlowCondensed-ExtraBold.woff2') format('woff2'),
+        url('BarlowCondensed-ExtraBold.woff') format('woff');
+    font-weight: bold;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Barlow Condensed';
-    src: url('BarlowCondensed-SemiBold.woff2') format('woff2'),
-        url('BarlowCondensed-SemiBold.woff') format('woff');
-    font-weight: 600;
+    src: url('BarlowCondensed-ExtraLight.woff2') format('woff2'),
+        url('BarlowCondensed-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow Condensed';
+    src: url('BarlowCondensed-Light.woff2') format('woff2'),
+        url('BarlowCondensed-Light.woff') format('woff');
+    font-weight: 300;
     font-style: normal;
     font-display: swap;
 }
@@ -63,6 +117,15 @@
 
 @font-face {
     font-family: 'Barlow Condensed';
+    src: url('BarlowCondensed-SemiBold.woff2') format('woff2'),
+        url('BarlowCondensed-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow Condensed';
     src: url('BarlowCondensed-Thin.woff2') format('woff2'),
         url('BarlowCondensed-Thin.woff') format('woff');
     font-weight: 100;
@@ -71,64 +134,82 @@
 }
 
 @font-face {
-    font-family: 'Roboto';
-    src: url('Roboto-Bold.woff2') format('woff2'),
-        url('Roboto-Bold.woff') format('woff');
+    font-family: 'Poppins';
+    src: url('Poppins-Black.woff2') format('woff2'),
+        url('Poppins-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-Bold.woff2') format('woff2'),
+        url('Poppins-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Roboto';
-    src: url('Roboto-Black.woff2') format('woff2'),
-        url('Roboto-Black.woff') format('woff');
-    font-weight: 900;
+    font-family: 'Poppins';
+    src: url('Poppins-ExtraBold.woff2') format('woff2'),
+        url('Poppins-ExtraBold.woff') format('woff');
+    font-weight: bold;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Roboto';
-    src: url('Roboto-Light.woff2') format('woff2'),
-        url('Roboto-Light.woff') format('woff');
+    font-family: 'Poppins';
+    src: url('Poppins-ExtraLight.woff2') format('woff2'),
+        url('Poppins-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-Light.woff2') format('woff2'),
+        url('Poppins-Light.woff') format('woff');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Roboto';
-    src: url('Roboto-Medium.woff2') format('woff2'),
-        url('Roboto-Medium.woff') format('woff');
+    font-family: 'Poppins';
+    src: url('Poppins-Medium.woff2') format('woff2'),
+        url('Poppins-Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Roboto';
-    src: url('Roboto-Regular.woff2') format('woff2'),
-        url('Roboto-Regular.woff') format('woff');
+    font-family: 'Poppins';
+    src: url('Poppins-Regular.woff2') format('woff2'),
+        url('Poppins-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Roboto';
-    src: url('Roboto-Thin.woff2') format('woff2'),
-        url('Roboto-Thin.woff') format('woff');
-    font-weight: 100;
+    font-family: 'Poppins';
+    src: url('Poppins-SemiBold.woff2') format('woff2'),
+        url('Poppins-SemiBold.woff') format('woff');
+    font-weight: 600;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Barlow Condensed';
-    src: url('BarlowCondensed-Black.woff2') format('woff2'),
-        url('BarlowCondensed-Black.woff') format('woff');
-    font-weight: 900;
+    font-family: 'Poppins';
+    src: url('Poppins-Thin.woff2') format('woff2'),
+        url('Poppins-Thin.woff') format('woff');
+    font-weight: 100;
     font-style: normal;
     font-display: swap;
 }

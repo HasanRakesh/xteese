@@ -5,7 +5,7 @@ body {
     font-weight: 400;
     font-size: 18px;
     line-height: 180%;
-    font-family: "Roboto", sans-serif;
+     font-family: "Poppins", sans-serif;
 }
 
 
@@ -131,20 +131,18 @@ button {
 
 section,
 .section {
-    padding: 160px 0
+    padding: 100px 0
 }
 
 .cta-btn {
     display: inline-block;
-    border: 1px solid rgba(245, 41, 33, 0.16);
-    padding: 10px 32px;
-    border-radius: 28px;
-    color: #fff;
+    border: 1px solid #000;
+    padding: 10px 30px;
+    color: #000;
 }
 
 .cta-btn:hover {
-    color: #fff;
-    background: #F52921;
+    color: #000;
 }
 
 .btn_fill {
@@ -188,7 +186,7 @@ section,
 }
 
 
-
+/* 02. Header Css */
 
 .header-blk-bg{
     background: #000;
@@ -234,9 +232,11 @@ section,
     display: inline-block;
     margin-right: 20px
 }
-.header-menu ul li a{
+.header-menu ul li a {
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: "Barlow Condensed", sans-serif;
 }
 .header-menu ul li:last-child{
     margin-right: 0
@@ -252,12 +252,44 @@ section,
     margin-left: 0
 }
 
-
-
-
-
-
-
+/* 03. Hero Css */
+.hero-area{
+    background-image: url(../img/hero-bg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.hero-text .title {
+    font-family: "Bai Jamjuree", sans-serif;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    line-height: 100%;
+    color: #fff
+}
+.hero-text .heading {
+    font-size: 80px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    left: 40px;
+    position: relative;
+    color: #fff;
+    font-family: "Bai Jamjuree", sans-serif;
+}
+.hero-text .cta-btn{
+    border: 1px solid #fff;
+    color: #fff;
+    margin-top: 30px
+}
+.hero-text .shape {
+    margin-top: -20px;
+}
+.hero-img img{
+    width: 100%
+}
 
 
 
