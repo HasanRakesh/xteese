@@ -158,13 +158,29 @@ section,
 }
 
 .section-heading .heading {
-    font-size: 32px;
+    font-size: 50px;
     font-weight: 700;
     line-height: 120%;
-    margin-bottom: 24px;
+    margin-bottom: 50px;
     color: #0B0909;
 }
-
+.section-heading.text-center .heading{
+    position: relative;
+    display: inline-block;
+    margin-bottom: 70px
+}
+.section-heading.text-center .heading::before{
+    position: absolute;
+    content: "";
+    width: 270px;
+    height: 10px;
+    background-image: url(../img/heading-shape.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -10px
+}
 .section-heading .title {
     display: block;
     font-size: 16px;
@@ -179,9 +195,9 @@ section,
 }
 
 .title {
-    color: #0B0909;
+    color: #000;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 120%;
 }
 
@@ -291,8 +307,18 @@ section,
     width: 100%
 }
 
-
-
+.speciality-area{
+    padding: 25px 0;
+    background: #F5F5F5
+}
+.single-speciality-box img{
+    width: 80px;
+    margin: 0 auto
+}
+.single-speciality-box .title{
+    text-align: center;
+    margin-top: 10px;
+}
 
 
 
