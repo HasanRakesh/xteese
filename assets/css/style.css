@@ -5,7 +5,7 @@ body {
     font-weight: 400;
     font-size: 18px;
     line-height: 180%;
-     font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 
@@ -170,12 +170,14 @@ section,
     margin-bottom: 50px;
     color: #0B0909;
 }
-.section-heading.text-center .heading{
+
+.section-heading.text-center .heading {
     position: relative;
     display: inline-block;
     margin-bottom: 70px
 }
-.section-heading.text-center .heading::before{
+
+.section-heading.text-center .heading::before {
     position: absolute;
     content: "";
     width: 270px;
@@ -187,6 +189,7 @@ section,
     transform: translateX(-50%);
     bottom: -10px
 }
+
 .section-heading .title {
     display: block;
     font-size: 18px;
@@ -210,77 +213,92 @@ section,
 
 /* 02. Header Css */
 
-.header-blk-bg{
+.header-blk-bg {
     background: #000;
     padding: 10px 0
 }
-.header-blk-bg-inn{
-    display: flex;
-    align-items: center;
-    justify-content: space-between
-}
-.header-blk-bg-left span{
-    display: flex;
-    align-items: center
-}
-.header-blk-bg-left span img{
-    margin-right: 5px
-}
-.header-blk-bg-left span p{
-    color: #fff;
-    font-size: 16px
-}
-.header-blk-bg-right ul{
-    display: flex;
-    align-items: center
-}
-.header-blk-bg-right ul li{
-    margin-right: 25px
-}
-.header-blk-bg-right ul li:last-child{
-    margin-right: 0
-}
-.header-wht-bg{
-    background: #fff;
-    padding: 15px 0
-}
-.header-wht-inn{
+
+.header-blk-bg-inn {
     display: flex;
     align-items: center;
     justify-content: space-between
 }
 
-.header-menu ul li{
+.header-blk-bg-left span {
+    display: flex;
+    align-items: center
+}
+
+.header-blk-bg-left span img {
+    margin-right: 5px
+}
+
+.header-blk-bg-left span p {
+    color: #fff;
+    font-size: 16px
+}
+
+.header-blk-bg-right ul {
+    display: flex;
+    align-items: center
+}
+
+.header-blk-bg-right ul li {
+    margin-right: 25px
+}
+
+.header-blk-bg-right ul li:last-child {
+    margin-right: 0
+}
+
+.header-wht-bg {
+    background: #fff;
+    padding: 15px 0
+}
+
+.header-wht-inn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.header-menu ul li {
     display: inline-block;
     margin-right: 20px
 }
+
 .header-menu ul li a {
     text-transform: uppercase;
     font-weight: 600;
     font-size: 18px;
     font-family: "Barlow Condensed", sans-serif;
 }
-.header-menu ul li:last-child{
+
+.header-menu ul li:last-child {
     margin-right: 0
 }
+
 .header-action ul {
     display: flex;
     align-items: center
 }
-.header-action ul li{
+
+.header-action ul li {
     margin-left: 20px
 }
-.header-action ul li:first-child{
+
+.header-action ul li:first-child {
     margin-left: 0
 }
 
 /* 03. Hero Css */
-.hero-area{
+.hero-area {
     background-image: url(../img/hero-bg.webp);
     background-repeat: no-repeat;
     background-size: cover;
-    
+
 }
+
 .hero-text .title {
     font-family: "Bai Jamjuree", sans-serif;
     text-transform: uppercase;
@@ -291,6 +309,7 @@ section,
     line-height: 100%;
     color: #fff
 }
+
 .hero-text .heading {
     font-size: 80px;
     font-weight: 700;
@@ -301,37 +320,43 @@ section,
     color: #fff;
     font-family: "Bai Jamjuree", sans-serif;
 }
-.hero-text .cta-btn{
+
+.hero-text .cta-btn {
     border: 1px solid #fff;
     color: #fff;
     margin-top: 30px
 }
+
 .hero-text .shape {
     margin-top: -20px;
 }
-.hero-img img{
+
+.hero-img img {
     width: 100%
 }
 
-.speciality-area{
+.speciality-area {
     padding: 25px 0;
     background: #F5F5F5
 }
-.single-speciality-box img{
+
+.single-speciality-box img {
     width: 80px;
     margin: 0 auto
 }
-.single-speciality-box .title{
+
+.single-speciality-box .title {
     text-align: center;
     margin-top: 10px;
 }
 
-.single-product-box-img img{
+.single-product-box-img img {
     width: 100%;
     height: 200px;
     object-fit: cover
 }
-.single-product-box .product-cart a{
+
+.single-product-box .product-cart a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -339,39 +364,47 @@ section,
     background: #000;
     padding: 5px 0
 }
-.single-product-box .product-cart span{
+
+.single-product-box .product-cart span {
     color: #fff;
     margin-left: 5px;
     font-size: 16px;
     font-weight: 600;
     font-family: "Barlow Condensed", sans-serif;
 }
-.single-product-box-text ul li{
+
+.single-product-box-text ul li {
     display: inline-block;
     font-size: 16px;
     font-weight: 600;
     font-family: "Barlow Condensed", sans-serif;
 }
-.single-product-box-text ul li:first-child{
+
+.single-product-box-text ul li:first-child {
     margin-right: 10px
 }
-.single-product-box-text ul li span{
+
+.single-product-box-text ul li span {
     text-decoration: line-through;
     color: #999
 }
-.single-product-box-text .title{
+
+.single-product-box-text .title {
     margin-bottom: 5px
 }
-.single-product-box-text{
+
+.single-product-box-text {
     padding: 10px 0;
     background: #fff;
-   display: block
+    display: block
 }
-.single-product-box{
-     -webkit-box-shadow: 0px 2px 3px 1px rgba(0,0,0,0.1); 
-box-shadow: 0px 2px 3px 1px rgba(0,0,0,0.1);
+
+.single-product-box {
+    -webkit-box-shadow: 0px 2px 3px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 3px 1px rgba(0, 0, 0, 0.1);
 }
-.pro-left-main{
+
+.pro-left-main {
     background-image: url(../img/product-m.webp);
     background-repeat: no-repeat;
     background-position: center;
@@ -380,7 +413,8 @@ box-shadow: 0px 2px 3px 1px rgba(0,0,0,0.1);
     height: 100%;
     margin-bottom: -30px
 }
-.category-left-main{
+
+.category-left-main {
     background-image: url(../img/product-m-2.webp);
     background-repeat: no-repeat;
     background-position: center;
@@ -389,14 +423,15 @@ box-shadow: 0px 2px 3px 1px rgba(0,0,0,0.1);
     height: 100%;
     margin-bottom: -30px
 }
-.product-area{
+
+.product-area {
     background-image: url(../img/product-bg.webp);
     background-repeat: no-repeat;
     background-size: cover
 }
 
 
-.offer-area{
+.offer-area {
     background-image: url(../img/offer.webp);
     background-repeat: no-repeat;
     background-size: cover;
@@ -404,7 +439,8 @@ box-shadow: 0px 2px 3px 1px rgba(0,0,0,0.1);
     position: relative;
     z-index: 9
 }
-.offer-area::before{
+
+.offer-area::before {
     position: absolute;
     content: "";
     width: 100%;
@@ -415,47 +451,71 @@ box-shadow: 0px 2px 3px 1px rgba(0,0,0,0.1);
     z-index: -1
 }
 
-.offer-area .section-heading .heading{
+.offer-area .section-heading .heading {
     margin-bottom: 5px
 }
-.offer-area .section-heading p{
+
+.offer-area .section-heading p {
     color: #000;
     font-size: 16px;
     font-weight: 500
 }
-.offer-text .title{
+
+.offer-text .title {
     font-size: 30px;
     font-weight: 600;
     margin: 15px 0
 }
 
-.offer-img img{
+.offer-img img {
     width: 100%
 }
 
-
-.product-slider .single-product-box-img img{
+.product-slider .single-product-box-img img {
     width: 100%;
     height: 300px;
     object-fit: cover
 }
-.product-slider .single-product-box{
+
+.product-slider .single-product-box {
     margin-bottom: 25px
 }
 
-.featured-products-area .single-product-box-img img{
+.featured-products-area .single-product-box-img img {
     width: 100%;
     height: 300px;
-    object-fit: cover
+    object-fit: cover;
 }
 
+.service-box {
+    display: flex;
+    align-items: center;
+}
 
+.service-box-img img {
+    width: 60px;
+    margin-right: 15px;
+    display: block
+}
 
+.service-box-text p {
+    font-size: 14px;
+    color: #999;
+    line-height: 100%;
+    margin-top: 10px
+}
 
+.service-inn {
+    background-image: url(../img/service-bg.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 60px
+}
 
-
-
-
-
-
-
+.service-area {
+    background-image: url(../img/product-bg.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
