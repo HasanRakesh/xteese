@@ -244,13 +244,19 @@ section,
 }
 
 .header-blk-bg-right ul li {
-    margin-right: 25px
+    margin-right: 20px
 }
 
 .header-blk-bg-right ul li:last-child {
     margin-right: 0
 }
-
+.header-blk-bg-right ul li a{
+    color: #fff;
+    font-size: 20px;
+}
+.header-blk-bg-right ul li a:hover{
+    color: #E33D3C
+}
 .header-wht-bg {
     background: #fff;
     padding: 15px 0
@@ -284,13 +290,15 @@ section,
 }
 
 .header-action ul li {
-    margin-left: 20px
+    margin-left: 30px
 }
 
 .header-action ul li:first-child {
     margin-left: 0
 }
-
+.header-action ul li a{
+    font-size: 20px
+}
 /* 03. Hero Css */
 .hero-area {
     background-image: url(../img/hero-bg.webp);
@@ -528,7 +536,7 @@ section,
 }
 .footer-top{
     padding: 100px 0;
-    border-bottom: 1px solid #999
+    border-bottom: 1px solid #414141;
 }
 .footer-top-link .title{
     color: #fff;
@@ -585,13 +593,21 @@ section,
     margin-bottom: 15px;
     font-weight: 500
 }
-.footer-details-text p{
+.footer-details-text p {
     color: #999;
-    font-size: 16px
+    font-size: 16px;
+    line-height: 160%;
+    margin-bottom: 0
+}
+.footer-social{
+    margin: 30px 0
 }
 .footer-social li{
     display: inline-block;
     margin-right: 20px
+}
+.footer-social li:last-child{
+    margin-right: 0
 }
 .footer-social li a{
     color: #fff
@@ -599,6 +615,73 @@ section,
 .footer-social li a:hover{
     color: #E33D3C
 }
+.footer-details-text span{
+    color: #999;
+    font-size: 16px
+}
+.footer-details-text span a {
+    color: #fff;
+    display: inline-block;
+    border-bottom: 1px solid #E33D3C;
+    line-height: 120%;
+}
+.footer-newsletter .title{
+    color: #fff;
+    margin-bottom: 30px
+}
+.footer-newsletter form input{
+    width: 69%;
+    background: transparent;
+    border-bottom: 1px solid #999;
+    padding: 10px;
+    font-size: 16px;
+     color: #fff
+}
+.footer-newsletter form input::placeholder{
+   color: #999
+}
+.footer-newsletter form button{
+    width: 28%;
+    margin-left: 10px
+}
+.footer-newsletter form .cta-btn{
+    color: #fff;
+    border: 1px solid #999
+}
+.footer-newsletter form .cta-btn:hover{
+    background: #E33D3C;
+    border: 1px solid #E33D3C
+}
+.footer-newsletter form .cta-btn span{
+    margin-left: 15px;
+    font-weight: 400;
+    font-size: 14px
+}
+.footer-bottom-part{
+    border-top: 1px solid #414141;
+}
+.footer-bottom-inn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0
+}
+.footer-bottom-left span{
+    color: #999;
+    font-size: 14px
+}
+.footer-bottom-left span a{
+    color: #E33D3C
+}
+
+
+
+
+
+
+
+
+
 
 
 
