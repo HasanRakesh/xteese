@@ -26,10 +26,10 @@
             touchDrag: true,
             mouseDrag: true,
             nav: true,
-            dots: false,
+            dots: true,
             navText: [
-        '<svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="Arrow_right"><path id="Vector 9" d="M11 6.5L5 12.5M5 12.5L11 18.5M5 12.5H20" stroke="#F25E5E" style="stroke:#F25E5E;stroke:color(display-p3 0.9473 0.3693 0.3693);stroke-opacity:1;" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></g></svg>',
-        '<svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"> <g id="Arrow_right"> <path id="Vector 9" d="M13 6.5L19 12.5M19 12.5L13 18.5M19 12.5H4" stroke="#F25E5E" style="stroke:#F25E5E;stroke:color(display-p3 0.9473 0.3693 0.3693);stroke-opacity:1;" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/> </g> </svg>'
+        '<svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="Arrow_right"><path id="Vector 9" d="M11 6.5L5 12.5M5 12.5L11 18.5M5 12.5H20" stroke="#000" style="stroke:#000;stroke:color(display-p3 0.9473 0.3693 0.3693);stroke-opacity:1;" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></g></svg>',
+        '<svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"> <g id="Arrow_right"> <path id="Vector 9" d="M13 6.5L19 12.5M19 12.5L13 18.5M19 12.5H4" stroke="#000" style="stroke:#000;stroke:color(display-p3 0.9473 0.3693 0.3693);stroke-opacity:1;" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/> </g> </svg>'
     ],
             
         });

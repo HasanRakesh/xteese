@@ -572,6 +572,35 @@ section,
 .product-slider .single-product-box {
     margin-bottom: 25px
 }
+.product-slider .owl-nav.disabled{
+    display: block !important
+}
+.product-slider{
+    position: relative
+}
+.product-slider .owl-next{
+    position: absolute;
+    top: 50%;
+    right: -50px;
+    transform: translateY(-50%)
+}
+.product-slider .owl-prev{
+    position: absolute;
+    top: 50%;
+    left: -50px;
+    transform: translateY(-50%);
+}
+
+
+
+
+
+
+
+
+
+
+
 
 .featured-products-area {
     background-image: url(../img/product-bg.webp);
