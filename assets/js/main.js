@@ -33,6 +33,20 @@
     ],
             
         });
+        
+        
+        $('.about-img-slider').owlCarousel({
+            animateOut: 'fadeOut',
+            animateIn: 'fadeIn',
+            items: 1,
+            loop: true,
+            margin: 0,
+            mouseDrag: true,
+            autoplayTimeout: 3000,
+            autoplay: true,
+            dots: false,
+            nav: false,
+        });
 
 
 
