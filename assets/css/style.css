@@ -1185,8 +1185,8 @@ section,
     background: rgba(0, 0, 0, 0.5)
 }
 .contact-form {
-    padding: 24px;
-    background: #fff
+    padding: 40px;
+    background: #fff;
 }
 
 .contact-form h6 {
@@ -1198,17 +1198,18 @@ section,
 
 .contact-form input {
     padding: 20px;
-    border-bottom: 2px solid rgba(46, 40, 42, 0.24);
-    color: #97A3B0;
-    font-family: "Raisonne";
-    margin-bottom: 8px
+    border-bottom: 1px solid #999;
+    color: #000;
+    margin-bottom: 8px;
+    width: 100%
 }
 
 .contact-form textarea {
     padding: 20px;
-    border-bottom: 2px solid rgba(46, 40, 42, 0.24);
+    border-bottom: 1px solid #999;
     height: 120px;
     color: #97A3B0;
+    width: 100%
 }
 
 .contact-form span {
