@@ -1146,8 +1146,6 @@ section,
 	margin-bottom: 0
 }
 
-
-
 .mission-area .col-lg-6{
     padding: 0
 }
@@ -1158,7 +1156,7 @@ section,
     padding: 0 30px
 }
 
-
+/* 16. Conatct css */
 
 .contact-area {
     position: relative;
@@ -1247,10 +1245,20 @@ section,
     margin-right: 10px
 }
 
+/* 16. Product Details Css */
 
-
-
-
+.product-details-heading ul li{
+    display: inline-block
+}
+.product-details-heading ul li span{
+    text-decoration: line-through;
+    color: #999
+}
+.pro_d_checkbox{
+    display: flex;
+    align-items: center;
+    
+}
 
 
 
