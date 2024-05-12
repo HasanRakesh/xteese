@@ -1329,7 +1329,7 @@ section,
     display: inline-block
 }
 .product-details-size span,
-product-details-color-choose span{
+.product-details-color-choose span{
     font-size: 16px;
     font-weight: 500;
     margin-bottom: 10px;
@@ -1569,7 +1569,217 @@ product-details-color-choose span{
 }
 
 
+/* 02. Blog Page css */
+.blog-main-img {
+    width: 100%;
+    height: 275px
+}
 
+.blog-main-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+
+.blog-main-text ul li {
+    display: inline-block;
+    margin-right: 8px
+}
+
+.blog-main-text ul li:last-child {
+    margin-right: 0
+}
+
+.blog-main-text ul li span {
+    border-radius: 4px;
+    background: #F5F5F5;
+    padding: 8px;
+    line-height: 100%;
+    color: #7F7675;
+    display: inline-block;
+    font-size: 14px
+}
+
+.blog-main-text .title {
+    margin: 20px 0
+}
+
+.blog-main-text p {
+    margin-bottom: 30px;
+    line-height: 160%;
+    font-size: 16px
+}
+
+.blog-area {
+    position: relative;
+    overflow: hidden
+}
+
+.blog-area::before {
+    position: absolute;
+    content: "";
+    border-radius: 959.624px;
+    background: rgba(0, 81, 219, 0.24);
+    filter: blur(250px);
+    width: 561.675px;
+    height: 959.624px;
+    top: 15%;
+    left: 15%;
+    z-index: -1;
+    transform: rotate(147.766deg);
+}
+
+.blog-area::after {
+    position: absolute;
+    content: "";
+    border-radius: 562.144px;
+    background: rgba(255, 246, 167, 0.36);
+    filter: blur(250px);
+    width: 329.027px;
+    height: 562.144px;
+    transform: rotate(147.766deg);
+    top: 15%;
+    right: 15%;
+    z-index: -2;
+}
+
+.blog-area .section-heading h2 {
+    color: rgba(1, 17, 41, 0.86);
+}
+
+.single-blog-box {
+    padding: 8px;
+    background: #fff;
+    display: block;
+    margin-bottom: 24px;
+    box-shadow: 8px 0px 40px 0px rgba(16, 10, 4, 0.04);
+}
+
+.blog-box-img {
+    width: 100%;
+    height: 220px
+}
+
+.blog-box-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+
+.blog-box-text {
+    padding: 24px 16px
+}
+
+.blog-box-text .title {
+    margin-bottom: 24px
+}
+
+.blog-box-text ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 32px
+}
+
+.blog-box-text ul li span {
+    border-radius: 4px;
+    background: #F5F5F5;
+    padding: 8px;
+    line-height: 100%;
+    color: #7F7675;
+}
+
+.blog-btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 12px 32px;
+    border: 1px solid rgba(86, 86, 86, 0.16);
+    transition: all 0.3s ease;
+    font-weight: 600;
+}
+
+.blog-box-action .btn_fill {
+    width: 100%;
+    text-align: center
+}
+
+.blog-box-action {
+    padding-top: 24px;
+    border-top: 1px solid rgba(16, 10, 4, 0.17);
+}
+
+.blog-area-action {
+    margin-top: 36px
+}
+
+
+.blog-details-img {
+    margin-bottom: 60px;
+    width: 100%;
+    height: 445px
+}
+
+.blog-details-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+
+.blog-details-text .title {
+    margin: 24px 0;
+    display: block
+}
+
+.blog-details-text p {
+    line-height: 160%;
+    font-size: 16px
+}
+
+.blog-details-share ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px
+}
+
+.blog-details-share .heading {
+    margin-right: 60px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #4A4A4A;
+}
+
+.blog-details-share ul li {
+    margin-right: 32px
+}
+
+.blog-details-share ul li:last-child {
+    margin-right: 0
+}
+.blog-details-share ul li a:hover{
+    color: #E33D3C
+}
+.all-blog-area .section-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px
+}
+.all-blog-area .section-heading .heading{
+    margin-bottom: 0
+}
+.all-blog-area .section-heading .cta-btn {
+    background: #fff;
+    border: 1px solid #E1261C;
+    color: #131313;
+}
+
+
+.all-blog-area {
+    padding-bottom: 44px;
+    background:#dbdbdb
+}
 
 
 
