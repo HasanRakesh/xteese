@@ -56,7 +56,7 @@
             margin: 0,
             mouseDrag: true,
             autoplayTimeout: 3000,
-            autoplay: true,
+            autoplay: false,
             dots: false,
             nav: false,
         });
