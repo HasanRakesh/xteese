@@ -1671,22 +1671,17 @@ section,
 }
 
 .blog-box-text .title {
-    margin-bottom: 24px
+    margin-bottom: 15px
 }
 
 .blog-box-text ul {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 32px
+    margin-bottom: 20px
 }
 
 .blog-box-text ul li span {
-    border-radius: 4px;
-    background: #F5F5F5;
-    padding: 8px;
     line-height: 100%;
-    color: #7F7675;
+    color: #999;
+    font-size: 14px
 }
 
 .blog-btn {
@@ -1778,8 +1773,36 @@ section,
 
 .all-blog-area {
     padding-bottom: 44px;
-    background:#dbdbdb
+    background:#f2f2f2
 }
+
+
+.order-top-text p{
+    font-size: 16px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
