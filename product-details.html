@@ -111,24 +111,85 @@
                             <div class="product-details-size">
                                 <span>T-Shirt Size</span>
                                 <div class="pro_d_checkbox">
-                                <div class="custom_checkbox">
-                                    <input type="radio" name="Pro_size" id="Pro_size">
-                                    <label for="shippingType2" class="">
+                                    <div class="custom_checkbox">
+                                        <input type="radio" name="Pro_size" id="Pro_size">
+                                        <label for="Pro_size">
                                             <p>S</p>
-                                    </label>
-                                </div>
-                                <div class="custom_checkbox">
-                                    <input type="radio" name="Pro_size" id="Pro_size">
-                                    <label for="shippingType2" class="">
+                                        </label>
+                                    </div>
+                                    <div class="custom_checkbox">
+                                        <input type="radio" name="Pro_size" id="Pro_size-2">
+                                        <label for="Pro_size-2">
                                             <p>M</p>
-                                    </label>
-                                </div>
-                                <div class="custom_checkbox">
-                                    <input type="radio" name="Pro_size" id="Pro_size">
-                                    <label for="shippingType2" class="">
+                                        </label>
+                                    </div>
+                                    <div class="custom_checkbox">
+                                        <input type="radio" name="Pro_size" id="Pro_size-3">
+                                        <label for="Pro_size-3">
                                             <p>Xl</p>
-                                    </label>
+                                        </label>
+                                    </div>
                                 </div>
+                            </div>
+                            <div class="product-details-counter-action">
+                                <div class='counter'>
+                                    <div class='down' onclick='decreaseCount(event, this)'>-</div>
+                                    <input type='text' value='1'>
+                                    <div class='up' onclick='increaseCount(event, this)'>+</div>
+                                </div>
+                                <div class="product-details-action">
+                                    <a href="javascript:;" class="btn_fill">ADD TO CART</a>
+                                </div>
+                                <div class="product-details-action">
+                                    <a href="javascript:;" class="btn_fill">BUY NOW</a>
+                                </div>
+                            </div>
+                            <div class="product-details-text">
+                                <h4 class="title">Description:</h4>
+                                <ul>
+                                    <li>Ringspun Combed Compact 100% Cotton</li>
+                                    <li>Fabric Color: Reactive Dye, Enzyme and Silicon washed</li>
+                                    <li>Preshurnk to minimize shrinkage</li>
+                                </ul>
+                            </div>
+                            <div class="product-details-size-img">
+                                <img src="assets/img/pd-22.webp" alt="img">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="product-details-tab">
+                            <ul class="nav nav-tabs" id="product-details-tab-content" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" id="product-details-tab-one" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">
+                                        <div class="popular-webinars-btn">
+                                            <span>Description</span>
+                                        </div>
+                                    </button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="product-details-tab-two" data-bs-toggle="tab" data-bs-target="#product-details-tab-2" type="button" role="tab" aria-controls="profile" aria-selected="false" tabindex="-1">
+                                        <div class="popular-webinars-btn">
+                                            <span>Reviews (0)</span>
+                                        </div>
+                                    </button>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="product-details-tab-one">
+                                <div class="tab-pane fade active show" id="home" role="tabpanel" aria-labelledby="product-details-tab-one">
+                                    <ul class="product-description">
+                                        <li>Ringspun Combed Compact 100% Cotton</li>
+                                        <li>Fabric Color: Reactive Dye, Enzyme and Silicon washed</li>
+                                        <li>Preshurnk to minimize shrinkage</li>
+                                        <li>Unisex</li>
+                                    </ul>
+                                </div>
+                                <div class="tab-pane fade" id="product-details-tab-2" role="tabpanel" aria-labelledby="product-details-tab-two">
+                                    <div class="product-details-tab-reviews">
+                                    <div class="product-details-tab-reviews-heading">
+                                        <h4 class="title">Reviews</h4>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -277,6 +338,30 @@
     <script src="assets/js/owl.carousel.min.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/sum.js"></script>
+
+    <script>
+        // ==================================
+        // Counter
+        // ==================================
+        function increaseCount(e, el) {
+            var input = el.previousElementSibling;
+            var value = parseInt(input.value, 10);
+            value = isNaN(value) ? 0 : value;
+            value++;
+            input.value = value;
+        }
+
+        function decreaseCount(e, el) {
+            var input = el.nextElementSibling;
+            var value = parseInt(input.value, 10);
+            if (value > 1) {
+                value = isNaN(value) ? 0 : value;
+                value--;
+                input.value = value;
+            }
+        }
+
+    </script>
 </body>
 
 </html>
