@@ -1438,3 +1438,39 @@ section,
 .product-comment-reviews-action .btn_fill {
     padding: 10px 40px;
 }
+
+.products-all-page-left ul li{
+    border-bottom: 1px solid #999;
+}
+.products-all-page-left ul li a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0
+}
+.products-all-page-left ul li a p{
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 500
+}
+.products-all-page-left ul li a:hover p{
+    color: #E33D3C
+}
+
+.products-all-page-left ul li a span{
+    font-size: 12px;
+    color: #999
+}
+.products-all-page-left .title{
+    margin-bottom: 30px
+}
+
+
+
+
+
+
+
+
+
+
