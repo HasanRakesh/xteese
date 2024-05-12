@@ -1213,9 +1213,7 @@ section,
 
 .contact-area {
     position: relative;
-    background-image: url(../img/product-bg.webp);
-    background-repeat: no-repeat;
-    background-size: cover
+  background: #dbdbdb
 }
 
 .contact-left-img {
@@ -1245,7 +1243,6 @@ section,
 .contact-form h6 {
     font-size: 16px;
     color: #797677;
-    ;
     margin-bottom: 16px
 }
 
@@ -1256,10 +1253,12 @@ section,
     margin-bottom: 8px;
     width: 100%
 }
-
+.contact-for-text{
+    border-bottom: 1px solid #999;
+}
 .contact-form textarea {
     padding: 20px;
-    border-bottom: 1px solid #999;
+    border:none;
     height: 120px;
     color: #97A3B0;
     width: 100%
@@ -1273,7 +1272,7 @@ section,
     line-height: 140%
 }
 
-.contact-form-action .cta-btn {
+.contact-form-action .btn_fill {
     display: block;
     width: 100%;
     text-align: center;
@@ -1301,6 +1300,24 @@ section,
 }
 
 /* 16. Product Details Css */
+.product-details-main-img img{
+    transform: scale(1);
+    transition: all 0.4s ease
+}
+.product-details-main-img img:hover{
+    transform: scale(1.05)
+}
+.product-details-img-group{
+    margin-top: 30px
+}
+.sngl-pd-gp-img img {
+    width: 100%;
+    height: 85px;
+    object-fit: cover;
+    padding: 3px;
+    border: 1px solid #E33D3C;
+}
+
 .product-details-heading{
     margin-bottom: 20px
 }
@@ -1311,9 +1328,12 @@ section,
 .product-details-heading ul li {
     display: inline-block
 }
-.product-details-size span{
+.product-details-size span,
+product-details-color-choose span{
     font-size: 16px;
-    font-weight: 500
+    font-weight: 500;
+    margin-bottom: 10px;
+    display: block
 }
 .product-details-heading ul li span {
     text-decoration: line-through;
@@ -1326,22 +1346,51 @@ section,
 
 }
 
-.pro_d_checkbox .custom_checkbox input {
+.product-details-size .pro_d_checkbox .custom_checkbox input {
     display: none
 }
 
-.pro_d_checkbox .custom_checkbox label {
+.product-details-size .pro_d_checkbox .custom_checkbox label {
     cursor: pointer;
-    position: relative;
     margin-right: 10px;
     padding: 5px 15px;
     border: 1px solid #999;
     line-height: 120%;
 }
 
-.pro_d_checkbox input[type="radio"]:checked ~ label {
+.product-details-size .pro_d_checkbox input[type="radio"]:checked ~ label {
     border: 1px solid #E33D3C;
-    color: #E33D3C
+    color: #E33D3C;
+    box-shadow: 0px 0px 2px 1px rgba(227, 61, 60, 0.5);
+}
+.product-details-color-choose{
+    margin-top: 30px
+}
+.product-details-color-choose .custom_checkbox input{
+    display: none
+}
+.product-details-color-choose .custom_checkbox label{
+    cursor: pointer;
+}
+.product-details-color-choose .custom_checkbox label{
+    width: 80px;
+    height: 15px;
+    margin-right: 10px;
+}
+.product-details-color-choose .custom_checkbox label.white{
+    background: #fff;
+    border: 1px solid #999
+}
+.product-details-color-choose .custom_checkbox label.black{
+    background: #000;
+}
+.product-details-color-choose .custom_checkbox label.red{
+    background: #E33D3C;
+}
+
+.product-details-color-choose .pro_d_checkbox input[type="radio"]:checked ~ label {
+    box-shadow: 0px 0px 4px 1px rgba(0,0,0,1);
+    height: 17px
 }
 .product-details-counter-action{
     display: flex;
@@ -1497,9 +1546,27 @@ section,
 .products-all-page-left .title{
     margin-bottom: 30px
 }
-
-
-
+.products-all-select-form{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 50px
+}
+.products-all-select-form p{
+    margin-bottom: 0;
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #999
+}
+.products-all-select-form form select{
+    border: 1px solid #999;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 5px 10px;
+    color: #555;
+    border-radius: 2px
+}
 
 
 
