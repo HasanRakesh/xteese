@@ -1301,13 +1301,14 @@ section,
     cursor: pointer;
     position: relative;
     margin-right: 10px;
-    padding: 5px 10px;
+    padding: 5px 15px;
     border: 1px solid #999;
     line-height: 120%;
 }
 
 .pro_d_checkbox input[type="radio"]:checked ~ label {
-    border: 1px solid #E33D3C
+    border: 1px solid #E33D3C;
+    color: #E33D3C
 }
 .product-details-counter-action{
     display: flex;
@@ -1365,7 +1366,7 @@ section,
 }
 .product-details-tab{
     margin-top: 100px;
-    padding: 50px 0;
+    padding-top: 50px;
     border-top: 1px solid #999
 }
 .product-details-tab .nav-tabs{
@@ -1417,13 +1418,23 @@ section,
     margin-bottom: 20px;
     font-size: 16px
 }
+
 .product-details-tab-reviews-box .product-reviews-box input{
     width: 100%;
     border: 1px solid #999;
     padding: 10px;
     font-size: 16px
 }
-.product-comment-cookies
+.product-comment-cookies{
+    margin: 20px 0
+}
 
-
-
+.product-comment-cookies label{
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    margin-left: 5px
+}
+.product-comment-reviews-action .btn_fill {
+    padding: 10px 40px;
+}
