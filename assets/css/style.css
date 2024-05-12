@@ -1397,9 +1397,33 @@ section,
     font-size: 16px;
     font-weight: 500
 }
-
-
-
+.product-details-tab-reviews-heading p{
+    font-size: 16px
+}
+.product-details-tab-reviews-box{
+    padding: 100px;
+    border: 2px solid #000;
+    margin-top: 30px
+}
+.product-details-tab-reviews-box .product-reviews-box label{
+    font-size: 14px;
+    font-weight: 500;
+    color: #999
+}
+.product-details-tab-reviews-box .product-reviews-box textarea{
+    width: 100%;
+    border: 1px solid #999;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px
+}
+.product-details-tab-reviews-box .product-reviews-box input{
+    width: 100%;
+    border: 1px solid #999;
+    padding: 10px;
+    font-size: 16px
+}
+.product-comment-cookies
 
 
 
