@@ -1298,7 +1298,15 @@ section,
     line-height: 100%;
     margin-right: 10px
 }
-
+.contact-map-area{
+    background: #dbdbdb
+}
+.contact-map-area iframe{
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #E33D3C!important;
+    background: #fff
+}
 /* 16. Product Details Css */
 .product-details-main-img img{
     transform: scale(1);
@@ -1770,28 +1778,102 @@ section,
     color: #131313;
 }
 
-
 .all-blog-area {
     padding-bottom: 44px;
     background:#f2f2f2
 }
-
-
+/* 18. Order css */
+.order-form-area .section-heading .heading{
+    color: #fff
+}
 .order-top-text p{
     font-size: 16px
 }
+.order-form-area{
+    background: #000
+}
+.order-form-area form input{
+    width: 100%;
+    background: #fff;
+    margin-bottom: 20px;
+    font-size: 16px;
+    padding: 10px
+}
+.order-form-area form textarea{
+    width: 100%;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    height: 200px
+}
 
 
+#drop-area {
+  border: 2px dashed #aaa;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  border-radius: 8px;
+  min-height: 2in;
+  flex-direction: column;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.drop-text {
+  font-size: 16px;
+  color: #fff;
+}
+#drop-area .drop-icon span{
+    color: #E33D3C;
+    font-size: 50px
+}
+.order-form-action{
+    margin-top: 50px
+}
+.order-form-action .btn_fill{
+    background: #E33D3C
+}
+
+.order-form-area.custom-order-area{
+    background: #fff
+}
+
+.custom-order-area form{
+    background: #000;
+    padding: 80px
+} 
+.custom-order-area .section-heading .heading{
+    color: #0B0909
+}
 
 
+.terms-text .title{
+    margin-bottom: 16px
+}
+.terms-text p{
+    margin-bottom: 40px;
+    font-size: 16px
+}
+.terms-mail-text {
+    margin-top: 40px;
+    padding-top: 40px;
+    border-top: 1px solid #999;
+}
+.terms-mail-text span a{
+    color: #E33D3C;
+    text-decoration: underline
+}
 
-
-
-
-
-
-
-
+.terms-mail-text span{
+    font-size: 14px;
+    line-height: 120%;
+    font-weight: 500
+}
 
 
 
